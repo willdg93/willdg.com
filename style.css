@@ -52,6 +52,20 @@ a:hover { color: var(--accent-dark); }
 }
 .nav nav a:hover { color: var(--text); }
 
+.lang-switch {
+  padding: 4px 10px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 12px !important;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--text) !important;
+}
+.lang-switch:hover {
+  border-color: var(--accent);
+  color: var(--accent) !important;
+}
+
 main {
   max-width: 980px;
   margin: 0 auto;
